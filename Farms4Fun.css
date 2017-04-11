@@ -1,0 +1,65 @@
+body p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+	padding-bottom: 0px;
+
+}
+
+.header h5 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.header p {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 15px;
+}
+
+#custom-farm {
+	margin-top: 25px;
+}
+
+#farm {
+	background-image: url(http://www.craiglotter.co.za/wp-content/uploads/2011/05/cute-cartoon-farm.png);
+	height: 500px;
+	width: 900px;
+	background-repeat: no-repeat;
+	border: solid black 5px;
+	position: relative;
+	cursor: pointer;
+}
+
+#farmkey {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#farmkey h1 {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 6px;
+}
+
+#new-sheep {
+	position: absolute;
+}
+#new-pig {
+	position: absolute;
+}
+#new-chicken {
+	position: absolute;
+}
+
+#new-farmName {
+	font-family: 'Press Start 2P', cursive;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+

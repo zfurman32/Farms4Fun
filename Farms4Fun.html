@@ -1,0 +1,52 @@
+<DOCTYPE! html>
+
+<html>
+<head>
+  <title>Farms 4 Fun</title>
+
+  <meta charset="utf-8">
+  <link href="Farms 4 Fun.css" type="text/css" rel="stylesheet">
+
+  <!--Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Press+Start+2P" rel="stylesheet">
+  
+</head>
+
+<body>
+<div class="header">
+  <h5>Welcome to your own custom farm builder!</h5>
+  <p>Fill out the information below to make your very own farm!</p>
+</div>
+
+<form id="custom-farm">
+
+  <p>What do you want to name your farm?<br> </p>
+  <input type="text" id="farmName" maxlength="20" value="Fun Farm!" />
+
+  <p>How many sheep do you want? (Between 1-5)<br></p>
+  <input type="number" id="sheep" min="0" max="5" value="0" />
+
+  <p>How many chickens do you want? (Between 1-5)<br></p>
+  <input type="number" id="chicken" min="0" max="5" value="0" />
+
+  <p>How many pigs do you want? (Between 1-5)<br> </p>
+  <input type="number" id="pig" min="0" max="5" value="0" /> <br> <br>
+
+  <input type="submit" id="submit" value="Make Farm!">
+  <hr >
+</form>
+
+<div class="farm">
+  <div id="farmkey">
+    <h1>Create these animals:</h1>
+    <img src="https://cdn.pixabay.com/photo/2012/05/07/04/17/pig-47920_960_720.png" width="80" height="70" id="pigimage">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sheep_in_gray.svg/706px-Sheep_in_gray.svg.png" width="80" height="70" id="sheepimage">
+    <img src="https://cdn.pixabay.com/photo/2014/04/02/14/05/chicken-306110_960_720.png" width="80" height="70" id="chickenimage">
+    </div>
+  <div id="farm"></div>
+</div>
+
+<script src="Farms 4 Fun.js"></script>
+</body>
+</html>
